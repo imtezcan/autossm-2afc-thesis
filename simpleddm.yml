@@ -30,7 +30,7 @@ rnn_params:
 training_params:
   checkpoint: False
   checkpoint_load_path: ''
-  epochs: 1
+  epochs: 3000
   lr: 0.0001
   lr_schedule: False
   learn_threshold: False
