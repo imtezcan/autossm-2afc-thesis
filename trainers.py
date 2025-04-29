@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from autossm_2afc.utils.debug import print_grads
+from debug import print_grads
 
-from autossm_2afc.models.rnn import VectorizedEvidenceRNN
+from rnn import VectorizedEvidenceRNN
 
 
 class ConvDiscriminator(nn.Module):
